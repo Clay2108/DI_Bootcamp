@@ -1,0 +1,59 @@
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  .ref{
+    text-align:inherit;
+  }
+  .price{
+    color:green;
+    font-weight: bold   ;
+  }
+  .strike{
+    color:grey;
+  }
+
+  .wording{
+    align-items: center;
+    margin-left:100px;
+  }
+  .overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: #000000; 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;
+.top-left {
+    position: absolute;
+        top: 8px;
+        left: 16px;
+}
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+        
