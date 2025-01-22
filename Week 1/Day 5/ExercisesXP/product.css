@@ -90,5 +90,16 @@
     color: white;}
 
 
+@media screen and (600 px <= width <= 1200px ){
+  .container{
+    float:50%;
+  }
+}
+  
+
+
+  
+
+
 
 
