@@ -1,0 +1,26 @@
+#box1{
+    background-color:aqua;
+}
+#box2{
+    background-color:bisque;
+}
+#box3{
+    background-color:brown;
+}
+#box4{
+    background-color:chocolate;
+}
+
+
+
+.box{
+    border:1px solid green;
+    width: 200px;
+    height: 200px;
+}
+
+#myflexcontainer{
+    background-color: gold;
+    border:2px dotted blue;
+    display:flex;
+}
