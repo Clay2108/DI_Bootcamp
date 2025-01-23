@@ -50,11 +50,15 @@ h4{
   
 }
 
-.icon1{
-  display:flex;
-  justify-content:center;
+.icons{
+  font-size: 40px;
+  padding:90px;
+  margin:10px 10px
+  display:auto;
+  
  
 }
+
 
   
 
