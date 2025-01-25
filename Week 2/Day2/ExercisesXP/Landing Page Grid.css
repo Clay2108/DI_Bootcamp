@@ -4,10 +4,18 @@
 
 
 body{
-    background-image:url(https://images.pexels.com/photos/592753/pexels-photo-592753.jpeg);
-    background-size: 100vw 100vh;
-    color:azure;
+    background-image:url(https://img.freepik.com/premium-vector/dotted-world-map-white-background-vector-illustration_541075-471.jpg);
+    background-size: 100vw 110vh;
+    background-image: filter 100px;
+    color:black;
+    font-weight:bolder;
+    font-family: sans-serif;
 
+}
+
+#sub{ 
+    color:rgb(71, 65, 65);
+    
 }
 
 .background{
@@ -19,13 +27,13 @@ body{
 .mygridcontainer{
     display:grid;
     grid-template-columns:100px repeat(3, 1fr) 1gfr;
-    grid-template-rows: repeat(4, 6fr);
+    grid-template-rows: 100px repeat(0.1, 6fr);
 }
 
 h1{
     text-align: center;
     padding-top: 70px;
-    word-wrap:normal;
+    font-size: 50px;
 }
 
 h2{
@@ -62,40 +70,70 @@ h2{
 }
 
 #box4{
-    border: 10px 10px;
-    border-color: beige;
+    border-top: 1px solid rgb(91, 87, 87);
+    border-right:1px solid rgb(91, 87, 87); 
+    border-left:1px solid rgb(91, 87, 87); 
     grid-column:1 ;
     grid-row:3 ;
     
 }
 
 #box5{
+    border-top: 1px solid rgb(91, 87, 87);
+    border-right:1px solid rgb(91, 87, 87); 
+    border-left:1px solid rgb(91, 87, 87); 
     grid-column:2 ;
-    grid-row:3 ;
+    grid-row:4 ;
     
 }
 
 #box6{
+    border-top: 1px solid rgb(91, 87, 87);
+    border-right:1px solid rgb(91, 87, 87); 
+    border-left:1px solid rgb(91, 87, 87); 
     grid-column:3 ;
     grid-row:3 ;
     
 }
 
 #box7{
+    
+    border-right:1px solid rgb(91, 87, 87); 
+    border-bottom:1px solid rgb(91, 87, 87); 
+    border-left:1px solid rgb(91, 87, 87); 
     grid-column:1 ;
     grid-row:4 ;
+    font-size: 18px;
+    color: gray;
+    background-color: bisque;
     
 }
 
 #box8{
+    grid-template-rows: 50px 50px;
+    border-right:1px solid rgb(91, 87, 87); 
+    border-bottom:1px solid rgb(91, 87, 87); 
+    border-left:1px solid rgb(91, 87, 87);
     grid-column:2 ;
-    grid-row:4 ;
+    grid-row:5 ;
+    font-size: 18px;
+    color: rgb(158, 151, 151);
+    background-color:rgb(87, 71, 181);
+    
+    
     
 }
 
 #box9{
+    border-right:1px solid rgb(91, 87, 87); 
+    border-bottom:1px solid rgb(91, 87, 87); 
+    border-left:1px solid rgb(91, 87, 87);
     grid-column:3 ;
     grid-row:4 ;
+    font-size: 18px;
+    color: rgb(85, 77, 77);
+    background-color: aqua;
+    
     
 }
 
@@ -105,8 +143,10 @@ h2,text {
 }
     
 
-
-    
+img{
+    border-radius: 50%;
+    text-align: center;
+}
 
 
 
