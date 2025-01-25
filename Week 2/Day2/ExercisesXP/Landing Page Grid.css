@@ -1,8 +1,3 @@
-
-
-
-
-
 body{
     background-image:url(https://img.freepik.com/premium-vector/dotted-world-map-white-background-vector-illustration_541075-471.jpg);
     background-size: 100vw 110vh;
@@ -26,8 +21,25 @@ body{
 
 .mygridcontainer{
     display:grid;
-    grid-template-columns:100px repeat(3, 1fr) 1gfr;
-    grid-template-rows: 100px repeat(0.1, 6fr);
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: 100px repeat(1, 4fr);
+}
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    #test {
+        width: 50px;
+        height: 50px;
+        background-color: red;
+    }
+    .mygridcontainer{
+        display:grid;
+        grid-template-columns:repeat(1, 1fr);
+        grid-template-rows: repeat(6, 4fr);
+    } 
+    
 }
 
 h1{
