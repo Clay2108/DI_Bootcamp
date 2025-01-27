@@ -1,0 +1,146 @@
+#main{
+    border:1px ;
+    text-align: center;
+    display:flex;
+    background-color:rgb(74, 163, 168);
+    padding: 10px 10px;
+    padding-left:600px; 
+    font-family: sans-serif; 
+
+}
+
+h4{
+    margin:0;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bolder;
+
+}
+button{
+    float:right;
+    background-color: rgb(63, 169, 104);
+    color:white;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/034/749/non_2x/urban-background-with-large-buildings-in-line-style-vector.jpg);
+    background-size: 100vw 100vh;
+    backdrop-filter:blur(5px) ;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    
+    
+}
+h1{
+    text-align: center;
+}
+
+.form{
+    padding:5px 10px;
+    display:flex;
+    flex:1;
+    box-sizing: 10px 10px;
+    max-width: 600px;
+   padding-left: 500px;
+   align-items: center;
+}
+.input{
+    display:flex;
+    flex-direction:column;
+    margin:10px 5px;
+   }
+
+label{
+    color: rgb(83, 106, 111);
+    font-size: 17px;
+}
+
+input[type="text"]{
+    width:100%;
+    font-size: 18px;
+    height:34px;
+    padding-left:10px;
+    padding-right:10px;
+    color:darkgray;
+    border:1px solid lightgray;
+    background:white;
+    outline:none;
+  
+}
+input[type="email"]{
+    width:100%;
+    font-size: 18px;
+    height:34px;
+    padding-left:50px;
+    padding-right:10px;
+    color:darkgray;
+    border:1px solid lightgray;
+    background:white;
+    display: flex;
+   
+    
+}
+input[type="number"]{
+    width:100%;
+    font-size: 18px;
+    height:34px;
+    padding-left:50px;
+    padding-right:10px;
+    color:darkgray;
+    border:1px solid lightgray;
+    background:white;
+    max-width: 600px;
+   
+    
+}
+.input2 [type="number"]{
+    width:20%;
+    font-size: 18px;
+    height:34px;
+    padding-left:50px;
+    padding-right:50px;
+    color:darkgray;
+    border:1px solid lightgray;
+    background:white;
+    max-width: 600px;
+    flex-direction: column;
+}
+
+ul,p{
+    color: rgb(83, 106, 111);
+    margin-left: 500px;
+}
+
+input[type="checkbox"]{
+    width:100%;
+    height:20px;
+    padding-left:10px;
+    padding-right:10px;
+    color:darkgray;
+    border:0px solid lightgray;
+    background:white;
+    max-width: 600px;
+   
+    
+}
+
+.download{
+    float:var(#main);
+    background-color: rgb(63, 169, 104);
+    color:white;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+
+}
+
+
+   
+    
