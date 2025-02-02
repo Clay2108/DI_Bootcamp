@@ -9,6 +9,8 @@
 </head>
 
 <style>
+
+    
     *{
     margin:0;
     padding:0;
@@ -37,8 +39,8 @@ nav.navbar{
 }
 
 nav .navbar .logo a{
-    color:rgb(161, 38, 157);
-    font-size:27px;
+    color:rgb(44, 38, 161);
+    font-size:45px;
     font-weight:600;
     text-decoration: none;
     margin-left:300px;
@@ -55,9 +57,9 @@ list-style:none;
 margin:0 15px;
 }
 .navbar .menu li a{
-    color:rgb(32, 4, 31);
+    color:rgb(31, 29, 36);
     font-size:17px;
-    font-weight:500;
+    font-weight:bolder;
     text-decoration: none;
 }
 
@@ -65,42 +67,118 @@ margin:0 15px;
 body{
   background-image: url( https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593357_1280.jpg);
   background-repeat: no-repeat;
-  background-size: 2000px 800px;
+  background-size: 2000px 900px;
   width:20%;
   height:80%;
   
+  
 }
+.container{
+    width:900%;
+    height: auto;
+    align-items: center;
+    margin: 10px auto;
+    display:flex;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 150px;
+   
+}
+.card{
+    width:50%;
+    display: grid;
+    gap:1rem;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 20px 10px;
+    border: none;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    
+
+}
+h2{
+    text-align: center;
+    padding:0px 0px;
+    color:rgb(64, 57, 57)
+}
+
+p{
+    padding:1px 2px;
+    text-align: center;
+}
+
 
 section{
     margin-top: 400px;
-    height:100vh;
+    height:40vh;
     width:500%;
-    display:inline-flexbox;
+    display:flexbox;
     align-items: center;
-    
     color:azure
 
 }
+
 #Home{
     text-align-last: center;
     font-size: 50px;
     
+    
 }
-.col-md-2 {
-  float: left;
-  width: 30.33%;
-  padding: 5px;
-  margin-top: 80px;
-  margin-left:20px
-}
+
 .btn1 {
   border: 2px solid black;
-  
   color: black;
   padding: 10px 10px;
   font-size: 16px;
   cursor: pointer;
 }
+
+
+
+.card .icon{
+    font-size:55px ;
+    margin-bottom: 25px;
+    color:blue;
+}
+.card .h2{
+    font-size:22px ;
+    margin-bottom: 20px;
+    color:rgb(21, 21, 142);
+    line-height: 1.5;
+}
+.card p{
+    font-size:16px ;
+    margin-bottom: 30px;
+    color:rgb(86, 86, 119);
+    line-height: 1.5;
+}
+.button{
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 5px;
+    
+
+}
+
+@media screen and (max-width:940px){
+    .c2{
+        display:flex;
+        flex-direction: column;
+    }
+    .card{
+        width:85%;
+        display:flex;
+        margin:20px 0px;
+
+    }
+}
+
+
+
 
 
 
@@ -132,23 +210,36 @@ section{
 
     </div>
 
-    <div class="col-md-2">
-        <h2>Heading</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quisquam adipisci provident pariatur sunt exercitationem laborum numquam suscipit aspernatur, excepturi sequi fugiat! Obcaecati inventore veritatis excepturi fugiat consectetur ut maxime.</p>
-        <p>
-          <a class="btn1 btn secondary" href="#" role="button"><i class="bi bi-phone"></i> View details</a>
-        </p>
   
+    <div class="container">
+        <div class="card">
+            <div class="icon">
+                <i class="bi bi-phone"></i>
+            </div>
+            <h2>Mobile Optimize</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti totam dolore debitis necessitatibus est, pariatur temporibus earum repellendus suscipit excepturi aliquam repudiandae impedit ipsa consequuntur quaerat illum distinctio eligendi nemo.</p>
+            <a href="#" class="button">Learn More></a>
         </div>
-      </div>
-      <div class="col-md-2">
-        <h2>Heading <span class="badge text-bg-primary">New</span> </h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quisquam adipisci provident pariatur sunt exercitationem laborum numquam suscipit aspernatur, excepturi sequi fugiat! Obcaecati inventore veritatis excepturi fugiat consectetur ut maxime.</p>
-        <p>
-          <a class="btn1 btn secondary" href="#" role="button"><i class="bi bi-geo-alt"></i> View details</a>
-        </p>
-  
+        <div class="card">
+            <div class="icon">
+                <i class="bi bi-wallet2"></i>
+            </div>
+            <h2>Increase Revenue</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti totam dolore debitis necessitatibus est, pariatur temporibus earum repellendus suscipit excepturi aliquam repudiandae impedit ipsa consequuntur quaerat illum distinctio eligendi nemo.</p>
+            <a href="#" class="button">Learn More></a>
         </div>
-    
+        <div class="card">
+            <div class="icon">
+                <i class="bi bi-lightbulb-fill"></i>
+            </div>
+            <h2>Smart Idea</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti totam dolore debitis necessitatibus est, pariatur temporibus earum repellendus suscipit excepturi aliquam repudiandae impedit ipsa consequuntur quaerat illum distinctio eligendi nemo.</p>
+            <a href="#" class="button">Learn More></a>
+        </div>
+    </div>
+
+        
+       </div> 
 </body>
+
 </html>
