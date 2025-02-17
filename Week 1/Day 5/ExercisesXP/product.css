@@ -1,0 +1,105 @@
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    display: flex;
+    position:relative;
+    
+
+  }
+  .strike{
+    color:grey;
+  }
+  .tag{
+    position:absolute;
+    top:5%;
+    color:whitesmoke;
+    background-color: rgb(45, 144, 45);
+    padding:10px; 
+    margin-left: 1%;
+    border-radius: 60%;
+    font-weight: bold;
+    width:3em;
+    text-align: center;
+    height:3.5em;
+
+  }
+.discount{
+    position:absolute;
+    top:5%;
+    color:whitesmoke;
+    background-color: red;
+    padding:10px;
+    margin-left:18%;
+    border-radius: 60%;
+    width:3em;
+    text-align: center;
+  
+}
+
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  .ref{
+    text-align:inherit;
+  }
+  .price{
+    color:green;
+    font-weight: bold   ;
+  }
+
+
+  .wording{
+    align-items: center;
+    margin-left:100px;
+    line-height: 0.5;
+  }
+  .overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: #000000; 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;
+.top-left {
+    position: absolute;
+        top: 8px;
+        left: 16px;
+}
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;}
+
+
+@media screen and (600 px <= width <= 1200px ){
+  .container{
+    float:50%;
+  }
+}
+  
+
+
+  
+
+
+
+

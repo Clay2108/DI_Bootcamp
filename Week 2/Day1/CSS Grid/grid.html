@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid CSS</title>
+
+        <style>
+            #mygridcontainer{
+                background-color: aqua;
+                display:grid;
+                grid-template-columns:100px repeat(2, 2fr) 3gfr;
+                grid-template-rows: repeat(5, 1fr);
+                column-gap: 10px ;
+                row-gap: 20px ;
+                grid-template-areas: 
+                ;
+            
+            }
+
+        .box{
+            background-color: red;
+            margin: 10px;
+            font-size:60px;
+        }
+
+        #box3 {
+            grid-column:1 ;
+            grid-row:5 ;
+        }
+
+        #box4{
+            grid-column:3 /5 ;
+            grid-row: 1/ span 2 ;
+        }
+
+
+        </style>
+
+        <body>
+            <h1>Let's Learn CSS Grid</h1>
+            <div id=mygridcontainer>
+                <div  class="box" style="grid-template-areas: nav;">1</div>
+                <div  class="box">2</div>
+                <div  class="box" id="box3">3</div>
+                <div class="box" id="box4">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+            </div>
+
+        </body>
+    </head>
+</html>

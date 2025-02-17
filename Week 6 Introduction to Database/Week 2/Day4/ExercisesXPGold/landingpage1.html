@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page 1</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<style>
+
+    
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+    scroll-behavior:smooth;
+}
+nav{
+    position:fixed;
+    left:0;
+    top:0;
+    height:75px;
+    width:100%;
+    background:none;
+   
+}
+
+nav.navbar{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    height:100%;
+    width:90%;
+    background:rgb(199, 199, 211);
+    margin:auto;
+}
+
+nav .navbar .logo a{
+    color:rgb(44, 38, 161);
+    font-size:45px;
+    font-weight:600;
+    text-decoration: none;
+    margin-left:300px;
+   
+}
+
+nav .navbar .menu{
+    display:flex;
+    margin-top: 15px;
+    margin-right:200px;
+}
+.navbar .menu li{
+list-style:none;
+margin:0 15px;
+}
+.navbar .menu li a{
+    color:rgb(31, 29, 36);
+    font-size:17px;
+    font-weight:bolder;
+    text-decoration: none;
+}
+
+
+body{
+  background-image: url( https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593357_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: 2000px 900px;
+  width:20%;
+  height:80%;
+  
+  
+}
+.container{
+    width:900%;
+    height: auto;
+    align-items: center;
+    margin: 10px auto;
+    display:flex;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 150px;
+   
+}
+.card{
+    width:50%;
+    display: grid;
+    gap:1rem;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 20px 10px;
+    border: none;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    
+
+}
+h2{
+    text-align: center;
+    padding:0px 0px;
+    color:rgb(64, 57, 57)
+}
+
+p{
+    padding:1px 2px;
+    text-align: center;
+}
+
+
+section{
+    margin-top: 400px;
+    height:40vh;
+    width:500%;
+    display:flexbox;
+    align-items: center;
+    color:azure
+
+}
+
+#Home{
+    text-align-last: center;
+    font-size: 50px;
+    
+    
+}
+
+.btn1 {
+  border: 2px solid black;
+  color: black;
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+.card .icon{
+    font-size:55px ;
+    margin-bottom: 25px;
+    color:blue;
+}
+.card .h2{
+    font-size:22px ;
+    margin-bottom: 20px;
+    color:rgb(21, 21, 142);
+    line-height: 1.5;
+}
+.card p{
+    font-size:16px ;
+    margin-bottom: 30px;
+    color:rgb(86, 86, 119);
+    line-height: 1.5;
+}
+.button{
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 5px;
+    
+
+}
+
+@media screen and (max-width:940px){
+    .c2{
+        display:flex;
+        flex-direction: column;
+    }
+    .card{
+        width:85%;
+        display:flex;
+        margin:20px 0px;
+
+    }
+}
+
+
+
+
+
+
+</style>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo"><a href="#">FRAME</a></div>
+            <ul class="menu">
+                <li><a href="#Home">HOME</a></li>
+                <li><a href="#Features">FEATURES</a></li>
+                <li><a href="#Pricing">PRICING</a></li>
+                <li><a href="#Pricing">PRICING</a></li>
+                <li><a href="#Reviews">REVIEWS</a></li>
+                <li><a href="#Contact">CONTACT</a></li>
+
+            </ul>
+        </div>
+
+    </nav>
+    <div class="homecontent">
+        <section id="Home">uicookies.com Creates High Quality Bootstrap Template For <i>Free</i>
+            
+            <div class="button1">
+                <a href="#" class="btn btn-primary">Get Theme Now</a>
+                <a href="#" class="btn btn-outline-light">See Features</a>
+            </div>
+        </section>
+
+    </div>
+
+  
+    <div class="container">
+        <div class="card">
+            <div class="icon">
+                <i class="bi bi-phone"></i>
+            </div>
+            <h2>Mobile Optimize</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti totam dolore debitis necessitatibus est, pariatur temporibus earum repellendus suscipit excepturi aliquam repudiandae impedit ipsa consequuntur quaerat illum distinctio eligendi nemo.</p>
+            <a href="#" class="button">Learn More></a>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <i class="bi bi-wallet2"></i>
+            </div>
+            <h2>Increase Revenue</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti totam dolore debitis necessitatibus est, pariatur temporibus earum repellendus suscipit excepturi aliquam repudiandae impedit ipsa consequuntur quaerat illum distinctio eligendi nemo.</p>
+            <a href="#" class="button">Learn More></a>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <i class="bi bi-lightbulb-fill"></i>
+            </div>
+            <h2>Smart Idea</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti totam dolore debitis necessitatibus est, pariatur temporibus earum repellendus suscipit excepturi aliquam repudiandae impedit ipsa consequuntur quaerat illum distinctio eligendi nemo.</p>
+            <a href="#" class="button">Learn More></a>
+        </div>
+    </div>
+
+        
+       </div> 
+</body>
+
+</html>

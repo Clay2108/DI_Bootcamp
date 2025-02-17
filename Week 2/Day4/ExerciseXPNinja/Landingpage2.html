@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recreate a Landing Page #2</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+</head>
+<style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+    scroll-behavior:smooth;
+}
+
+nav{
+    position:fixed;
+    left:0;
+    top:0;
+    height:75px;
+    width:100%;
+    background:none;
+   
+}
+
+nav.navbar{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    height:100%;
+    width:90%;
+    background:rgb(199, 199, 211);
+    margin:auto;
+    
+}
+
+nav .navbar .logo a{
+    color:rgb(54, 58, 16);
+    font-size:40px;
+    font-weight:600;
+    text-decoration: none;
+    margin-left:300px;
+   
+}
+sub{
+    color:green;
+}
+nav .navbar .menu{
+    display:flex;
+    margin-top: 40px;
+    margin-right:200px;
+    
+    
+}
+.navbar .menu li{
+  list-style:none;
+  margin:0 30px;
+  grid-area:10px;
+  
+}
+.navbar .menu li a{
+    color:rgb(86, 116, 26);
+    font-size:20px;
+    font-weight:bolder;
+    text-decoration: none;
+}
+
+body{
+    background-image:url(https://images.pexels.com/photos/8730284/pexels-photo-8730284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+    background-repeat: no-repeat;
+    background-size: 2000px 1050px;
+    width:10%;
+    height:50%;
+}
+section{
+    margin-top: 300px;
+    height:0vh;
+    width:500%;
+    display:flexbox;
+    align-items: center;
+    color:azure;
+    margin-left: 500px;
+
+}
+
+#Home{
+    text-align: center;
+  
+    
+    
+}
+
+.boxcontainer{
+    display: flex;
+    align-items: center;
+    margin-left:230px;
+    box-sizing: border-box;
+    font-size: 20px;
+    
+}
+h1{
+    font-size: 80px;
+}
+i{color:greenyellow}
+p1{
+    color:yellowgreen;
+    font-weight: bolder;
+}
+
+
+.cardcontainer{
+    width:900%;
+    height: auto;
+    align-items: center;
+    margin: 10px auto;
+    display:flex;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 250px;
+    cursor:grab;
+   
+}
+.card{
+    width:50%;
+    display: inline-flex;
+   flex-direction: column;
+    margin: 300px 20px;
+    padding: 5px 10px;
+    border: none;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    background-color: rgb(102, 136, 49);
+    
+
+}
+
+.icon{
+    font-size:50px ;
+    margin-bottom: 25px;
+    color:rgb(247, 247, 247);
+}
+.card p{
+    font-size:25px ;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color:rgb(247, 247, 247);
+    line-height: 1.1;
+}
+caption{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.table{
+    border-collapse: collapse;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 350px;
+    width:600%;
+    min-height: max-content;
+    
+}
+
+tbody{
+    width:150%;
+    
+}
+thead{
+    text-align: center;
+    
+}
+td{
+    text-align: center;
+}
+
+a1{
+    margin-left: 850px;
+    height:40px;
+    width:100px;
+    font-weight: bolder;
+}
+.container{
+    width:900%;
+    height: auto;
+    align-items: center;
+    margin: 10px auto;
+    display:flex;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 150px;
+   
+}
+.card2{
+    width:50%;
+    display: grid;
+    gap:1rem;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 20px 10px;
+    border: none;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+.topcard{
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    display:flex;
+    margin-top: 50px;
+   
+    
+}
+.icon2{
+    font-size:50px ;
+    margin-bottom: 25px;
+    color:rgb(247, 247, 247);
+}
+
+.wholecontainer .topcard{
+    text-align: center;
+    padding-bottom: 10px;
+    margin-left: 810px;
+    margin-bottom: -150px;
+    display:inline-table;
+    
+}
+
+
+
+
+
+</style>
+<body>
+
+    <nav>
+        <div class="navbar">
+            <div class="logo"><a href="#">INTENSE <sub>Job Board</sub></a></div>
+            <ul class="menu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">Find a Job</a></li>
+                <li><a href="#">Post a Job</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">or</a></li>
+                <li><a href="#">Register</a></li>
+
+            </ul>
+        </div>
+    
+
+    </nav>
+
+     <div class="homecontent">
+        <section id="Home"><h1>Build Your Future</h1>
+            <h3>We offer <i>2,989</i> job vancancies right now!</h3>
+
+            <div class="boxcontainer">
+
+                <div class="text">
+
+                    <input type="text" placeholder="Job title, skills or company">
+    
+                </div>
+    
+                <div class="btn-group">
+                    <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        City or State
+                      </a>
+                      
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      
+                    </ul>
+                  </div>
+                
+                <div class="button">
+                   
+                    <a href="#" class="btn btn-outline-success">FIND JOB</a>
+                </div>
+
+            </div>
+           
+        </section>
+
+    </div>
+
+    <div class="cardcontainer">
+
+        <div class="card">
+            <div class="icon">
+                <i class="bi bi-hospital"></i><br>
+                <p> Healthcare</p>
+    
+    
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="icon">
+                <i class="bi bi-car-front"></i><br>
+                <p> Automobile Jobs</p>
+    
+    
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="icon">
+                <i class="bi bi-building"></i><br>
+                <p> Construction</p>
+    
+    
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="icon">
+                <i class="bi bi-cup-straw"></i><br>
+                <p> Food Service</p>
+    
+    
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="icon">
+                <i class="bi bi-globe-asia-australia"></i><br>
+                <p> Logistic</p>
+    
+    
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <i class="bi bi-cash-stack"></i><br>
+                <p> Finance</p>
+    
+    
+            </div>
+        </div>
+        
+        
+
+    </div>
+    <table class="table caption-top">
+  <caption>Latest Jobs</caption>
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Date</th>
+      <th scope="col">Company</th>
+      <th scope="col">Job Vacancy</th>
+      <th scope="col">City</th>
+      <th scope="col">Salary</th>
+      <th scope="col">Employment</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><i2 class="bi bi-fire"></i2></th>
+      <td>11.05.2018, 4:16pm</td>
+      <td>1</td>
+      <td><p1>Developer</p1></td>
+      <td>New York</td>
+      <td>$6,000</td>
+      <td>Full time</td>
+    </tr>
+    <tr>
+      <th scope="row"><i2 class="bi bi-fire"></i2></th>
+      <td>06.02.2018, 2:54pm</td>
+      <td>2</td>
+      <td><p1>Project Manager</p1></td>
+      <td>San Diego</td>
+      <td>$4,000</td>
+      <td>Full time</td>
+    </tr>
+    <tr>
+      <th scope="row"><i2 class="bi bi-airplane-engines"></i2></th>
+      <td>18.01.2018, 2:42pm</td>
+      <td>3</td>
+      <td><p1>Truck driver</p1></td>
+      <td>Dallas</td>
+      <td>$2,000</td>
+      <td>Part time</td>
+    </tr>
+  </tbody>
+  <tr>
+      <th scope="row"></th>
+      <td>18.01.2018, 2:42pm</td>
+      <td>4</td>
+      <td><p1>JS Programmer</p1></td>
+      <td>Seattle</td>
+      <td>$7,000</td>
+      <td>Full time</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>18.01.2018, 2:42pm</td>
+      <td>5</td>
+      <td><p1>Developer</p1></td>
+      <td>San Francisco</td>
+      <td>$5,000</td>
+      <td>Part time</td>
+    </tr>
+</table>
+
+<a1 href="#" class="btn btn-success">VIEW ALL</a1>
+
+
+
+
+<div class="wholecontainer">
+    <title class="topcard">Why People Choose Us</title>
+
+    <div class=container>
+
+        <div class="card2">
+            <div class="icon2">
+                <i class="bi bi-person-check-fill"></i> 
+            </div>
+            <h4>VERIFIED EMOLOYERS</h4>
+            <p>We pay a lot of attention to the employers we cooperate with and vacancies they submit to our job.</p>
+            
+        </div>
+        <div class="card2">
+            <div class="icon2">
+                <i class="bi bi-bar-chart-line"></i> 
+            </div>
+            <h4>DEMANDED VACANCIES</h4>
+            <p>Our catalog contains only the most demanded vacancies from American and International companies with offices in the US.</p>
+            
+        </div>
+    
+        <div class="card2">
+            <div class="icon2">
+                <i class="bi bi-layout-text-sidebar"></i>
+            </div>
+            <h4>EMPLOYMENT BLOG</h4>
+            <p>We have recently launched our employment blog where we review top rated vacancies and give useful advice to our readers.</p>
+            
+        </div>
+        
+
+    </div>
+   
+    
+</div>
+
+
+</body>
+</html>

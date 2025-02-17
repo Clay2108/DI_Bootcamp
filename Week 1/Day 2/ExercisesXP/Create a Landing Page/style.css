@@ -1,0 +1,71 @@
+.container {
+    margin:auto;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    padding-top: 50px;
+    
+  }
+  
+  
+  body{
+    background-image: url(landscape.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 200%;
+  }
+
+  button {
+    appearance: auto;
+    letter-spacing: normal;
+    word-spacing:normal;
+    line-height: normal;
+    float:right;
+    color:white;
+    background-color: blue;
+    margin-top: 1px;
+    position:fixed;
+     
+ }
+ 
+h4{
+  color:white;
+}
+.signin{
+  margin-top: 0%;
+  margin-right: 0%;
+}
+
+#button{
+  line-height: 12px;
+  width: 70px;
+  margin-top: 0%;
+  margin-right: 0%;
+  background-color: blue;
+  color:white;
+  position:absolute;
+  top:20px;
+  right:20px;
+  
+}
+
+.icons{
+  font-size: 40px;
+  padding:90px;
+  margin:10px 10px
+  display:auto;
+  
+ 
+}
+
+
+  
+
+  
+
+}
+#email{
+  text-align: right;
+}
+
