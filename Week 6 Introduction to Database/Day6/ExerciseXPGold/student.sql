@@ -1,0 +1,1 @@
+select first_name, last_name,birth_date from students ORDER BY last_name OFFSET 2 ROWS FETCH FIRST 3 ROWS ONLY
