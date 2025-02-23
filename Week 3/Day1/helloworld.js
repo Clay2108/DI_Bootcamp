@@ -1,3 +1,3 @@
-console.log ("Hello World!"); 
-console.log("display");
-var name = "john";
+console.log(global.LuckyNum);
+global.LuckyNum = '23';
+console.log(global.LuckNum);

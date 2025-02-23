@@ -1,0 +1,1 @@
+select * from purchases RIGHT JOIN customers ON purchases.customer_id=customers.id WHERE customers.id=5

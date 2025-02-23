@@ -1,0 +1,1 @@
+select * from rental WHERE return_date IS NULL
