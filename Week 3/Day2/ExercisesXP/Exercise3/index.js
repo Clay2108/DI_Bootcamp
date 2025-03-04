@@ -7,3 +7,5 @@ const celsiusTemp = 25;
 
 const fahrenheitTemp= celsiusTemp /5 * 9 +32 //Ans 77
 //console.log(fahrenheitTemp) 
+
+console.log (celsiusTemp)
