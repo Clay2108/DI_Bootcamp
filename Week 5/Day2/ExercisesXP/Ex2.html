@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2 : Work with forms</title>
+</head>
+<body>
+
+    <form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="firstname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lastname"><br><br>
+  <input type="submit" value="Submit" id="submit">
+</form> 
+<ul class="usersAnswer"></ul>
+    
+</body>
+
+<script>
+//1.Retrieve the form and console.log it.
+// let form = document.querySelector('form');
+// console.log(form);
+
+//2.Retrieve the inputs by their id and console.log them.
+// let fname= document.getElementById('fname');
+// let lname= document.getElementById('lname');
+// console.log(fname);
+// console.log(lname);
+
+//3.Retrieve the inputs by their name attribute and console.log them.
+// let fname= document.getElementsByName('firstname');
+// let lname= document.getElementsByName('lastname');   
+// console.log(fname);
+// console.log(lname);
+
+//4.When the user submits the form (ie. submit event listener)
+// -use event.preventDefault(), why ?
+// -get the values of the input tags,
+// -make sure that they are not empty,
+// -create an li per input value,
+// -then append them to a the <ul class="usersAnswer"></ul>, below the form:
+//<ul class="usersAnswer">
+//     <li>first name of the user</li>
+//     <li>last name of the user</li>
+// </ul>
+
+// let form = document.querySelector('form');
+// let fname= document.getElementById('fname');        
+// let lname= document.getElementById('lname');
+// let submit = document.getElementById('submit'); 
+// let ul = document.querySelector('.usersAnswer');    
+
+// form.addEventListener('submit', function(event){
+//     event.preventDefault();
+//     if(fname.value !== '' && lname.value !== ''){
+//         let li1 = document.createElement('li');
+//         let li2 = document.createElement('li');
+//         li1.innerText = fname.value;
+//         li2.innerText = lname.value;
+//         ul.appendChild(li1);
+//         ul.appendChild(li2);
+//     }
+//     else{
+//         alert('Please fill in the form');
+//     }
+// });
+
+
+
+
+</script>
+</html>   
