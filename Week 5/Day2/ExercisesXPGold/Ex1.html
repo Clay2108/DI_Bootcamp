@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex1</title>
+</head>
+<body>
+    <select id="genres">
+  <option value="rock">Rock</option>
+  <option value="blues" selected>Blues</option>
+</select>
+    
+</body>
+<script>
+    // 1.Display the value of the selected option.
+    let select = document.getElementById('genres');
+    select.addEventListener('change', function(){
+        console.log(select.value);
+    });
+
+    //Add an additional option to the select tag:
+// <option value="classic">Classic</option>
+    let option = document.createElement('option');
+    option.value = 'classic';
+    option.text = 'Classic';
+    select.appendChild(option);
+    console.log(select);
+
+    //The newly added option should be selected by default.
+    option.selected = true;
+    console.log(select);
+    
+
+</script>
+
+</html>
